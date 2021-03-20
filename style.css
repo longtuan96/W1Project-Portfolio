@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* flexbox */
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-start {
+  justify-content: flex-start;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-start {
+  align-items: flex-start;
+}
+.align-items-end {
+  align-items: flex-end;
+}
+.align-items-stretch {
+  align-items: stretch;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.fixed {
+  position: fixed;
+}
+.sticky {
+  position: sticky;
+}
+
+/* Misc */
+.red-border {
+  border: 1px solid red;
+}
+.yellow-border {
+  border: 1px solid yellow;
+}
+
+/* content */
+header {
+  position: fixed;
+  z-index: 10;
+  background-color: transparent;
+  width: 5vw;
+  height: 100vh;
+  color: white;
+}
+
+#header span {
+  height: 23%;
+}
+
+#header a {
+  text-decoration: none;
+  color: white;
+  margin-top: 100%;
+}
+#header a:hover {
+  /* background-color: yellowgreen; */
+  transition: 0.3s;
+  color: #66ff66;
+  transform: translateX(10px);
+  transform: scale(1.2);
+}
+
+/* Title  */
+section#title {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/welcome-neon-glow-dark-background-glowing-3600x2000-2068.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* About */
+section#about {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/abstract-dark-circle.jpg);
+}
+#about .divText {
+  color: white;
+  font-size: 20px;
+  width: 25vw;
+  height: 20vh;
+  margin-right: 1vw;
+  /* top: 50vh;
+  left: 10vw; */
+}
+
+#about img {
+  width: 60vw;
+  /* height: 61vh; */
+  /* filter: blur(10px); */
+  margin-right: 9vw;
+}
