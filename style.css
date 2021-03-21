@@ -89,7 +89,7 @@ header {
 }
 
 #header span {
-  height: 23%;
+  height: 15%;
 }
 
 #header a {
@@ -101,7 +101,7 @@ header {
 #header a:hover {
   /* background-color: yellowgreen; */
   transition: 0.3s;
-  color: #1607f9;
+  color: #4caf50;
   transform: translateX(10px);
   transform: scale(1.2);
 }
@@ -153,6 +153,23 @@ section#about {
   left: 10vw;
   z-index: 1;
   top: 20vh;
+}
+
+#about a {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+}
+#about a:hover {
+  transition: 0.1s;
+  color: black;
+  background: white;
 }
 #about h1 {
   font-size: 500%;
