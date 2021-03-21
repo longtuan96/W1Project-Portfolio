@@ -9,20 +9,30 @@
   </head>
   <body>
     <header id="header" class="d-flex flex-column align-items-center">
-      <p>SIRIS</p>
       <span class=""></span>
-      <a href="">TITLE</a>
-      <a href="">ABOUT</a>
-      <a href="">JOB</a>
+      <a href="#">TITLE</a>
+      <a href="">ABOUT ME</a>
+      <a href="" onclick="myFunction()">PROJECTS</a>
       <a href="">FIND ME</a>
     </header>
 
-    <section id="title" class=""></section>
-
-    <section id="about" class="d-flex justify-content-end align-items-center">
+    <section id="title" class="d-flex justify-content-end">
       <div class="divText d-flex align-items-start flex-column">
-        <h1>About Me</h1>
-        <p>I love Coding , playing Games and Sleep</p>
+        <h1 class="font-balooTammudu">Tran Long Tuan</h1>
+        <span></span>
+        <h2 class="font-balooTammudu">Portfolio</h2>
+      </div>
+    </section>
+
+    <section
+      id="about"
+      class="d-flex justify-content-end align-items-center relative"
+    >
+      <div class="divText d-flex align-items-start flex-column absolute">
+        <h1 class="font-balooTammudu">About Me</h1>
+        <span></span>
+        <p class="font-cairo">I love Coding , playing Games and Sleep</p>
+        <a href="" class="font-cairo">More about me</a>
       </div>
       <div>
         <img
@@ -30,9 +40,110 @@
         />
       </div>
     </section>
+    <section
+      id="who-am-i"
+      class="d-flex justify-content-center align-items-center"
+    >
+      <div class="container d-flex justify-content-between">
+        <div class="">
+          <h1 class="title font-balooTammudu">Who am I</h1>
+        </div>
+        <div class="divText">
+          <div class="">
+            <h1 class="text font-balooTammudu">Tran Long Tuan</h1>
+            <h2 class="text font-balooTammudu">Electrical Engineer</h2>
+            <p class="textContent font-cairo">
+              Born in 1996, my place of birth is Ho Chi Minh city.I'm currently
+              25 years old now.
+            </p>
+            <p class="textContent font-cairo">
+              In 2018, i was a graduated from Vietnamese and German University.
+              My major was Electrical engineering and information technology.
+              With my passion for coding, i started the course Full-stack web
+              development of the Coderschool.
+            </p>
+          </div>
+          <img
+            src="images/28337197_940760316090629_5832353036662764173_o.jpg"
+            alt="a picture with my handsome face"
+          />
+        </div>
+      </div>
+    </section>
 
-    <section id="job"></section>
-    <section id="contact"></section>
+    <section
+      id="passion"
+      class="d-flex align-items-center justify-content-center"
+    >
+      <div class="container">
+        <div class="d-flex justify-content-start">
+          <h1 class="font-balooTammudu">Passion</h1>
+        </div>
+        <div class="d-flex justify-content-around content font-cairo">
+          <div class="divText">
+            <i class="fas fa-cog"></i>
+            <p>
+              Failure is central to engineering. Every single calculation that
+              an engineer makes is a failure calculation. Successful engineering
+              is all about understanding how things break or fail.
+            </p>
+            <p>- Henry Petroski</p>
+          </div>
+
+          <div class="divText">
+            <i class="fas fa-laptop-code"></i>
+            <p>
+              “Always code as if the guy who ends up maintaining your code will
+              be a violent psychopath who knows where you live”
+            </p>
+            <p>- John Woods</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="job"></section> -->
+    <section
+      id="contact"
+      class="d-flex justify-content-end align-items-center relative"
+    >
+      <div class="divText d-flex align-items-start flex-column absolute">
+        <h1 class="title font-balooTammudu">Get in Touch</h1>
+        <span></span>
+        <div class="content d-flex flex-column">
+          <a href="" class="textRef">longtuan03@gmail.com</a>
+          <a href="" class="textRef">LinkedIn</a>
+          <div class="content2 d-flex">
+            <a href="">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img src="images/phone-vintage.jpg" />
+      </div>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/8b6b3f8bb3.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- FONT -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap");
+    </style>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+    </style>
+
+    <!-- End FONT -->
     <script src="script.js"></script>
   </body>
 </html>

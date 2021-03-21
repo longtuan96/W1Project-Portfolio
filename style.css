@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* FONTS */
+.font-balooTammudu {
+  font-family: "Baloo Tammudu 2", cursive;
+}
+.font-cairo {
+  font-family: "Cairo", sans-serif;
+}
 
 /* flexbox */
 .d-flex {
@@ -76,7 +83,7 @@ header {
   position: fixed;
   z-index: 10;
   background-color: transparent;
-  width: 5vw;
+  width: 7vw;
   height: 100vh;
   color: white;
 }
@@ -89,11 +96,12 @@ header {
   text-decoration: none;
   color: white;
   margin-top: 100%;
+  font-family: "Baloo Tammudu 2", cursive;
 }
 #header a:hover {
   /* background-color: yellowgreen; */
   transition: 0.3s;
-  color: #66ff66;
+  color: #1607f9;
   transform: translateX(10px);
   transform: scale(1.2);
 }
@@ -102,9 +110,31 @@ header {
 section#title {
   width: 100vw;
   height: 100vh;
-  background-image: url(images/welcome-neon-glow-dark-background-glowing-3600x2000-2068.jpg);
+  background-image: url(images/leopard_black_and_white-wallpaper-1920x1200.jpg.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
+}
+#title .divText {
+  color: white;
+  height: 100%;
+  width: 50%;
+}
+
+#title h1 {
+  font-size: 500%;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+#title h2 {
+  font-size: 500%;
+  margin-left: 10%;
+  /* color: transparent;
+  background-clip: text;
+  background-color: #923cb5;
+  background-image: linear-gradient(147deg, #923cb5 0%, #2e2828 74%); */
+}
+#title span {
+  margin-top: 33vh;
 }
 
 /* About */
@@ -112,20 +142,164 @@ section#about {
   width: 100vw;
   height: 100vh;
   background-image: url(images/abstract-dark-circle.jpg);
+  background-size: 100% 100%;
 }
 #about .divText {
   color: white;
-  font-size: 20px;
   width: 25vw;
   height: 20vh;
   margin-right: 1vw;
-  /* top: 50vh;
-  left: 10vw; */
+  top: 50vh;
+  left: 10vw;
+  z-index: 1;
+  top: 20vh;
+}
+#about h1 {
+  font-size: 500%;
+}
+#about span {
+  margin-top: 10%;
+}
+#about p {
+  font-size: 200%;
 }
 
 #about img {
-  width: 60vw;
-  /* height: 61vh; */
+  width: 64vw;
+  height: 85vh;
+  filter: grayscale(100%);
+  margin-right: 9vw;
+}
+
+section#who-am-i {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#who-am-i .container {
+  width: 75vw;
+  height: 75vh;
+}
+
+#who-am-i .divText {
+  width: 37%;
+  height: 60%;
+  padding-top: 2%;
+}
+
+#who-am-i img {
+  width: 25vw;
+  margin-top: 36px;
+}
+
+#who-am-i .title {
+  font-size: 300%;
+}
+
+#who-am-i .text {
+  font-size: 200%;
+}
+#who-am-i .textContent {
+  font-size: 100%;
+  color: rgba(87, 75, 75, 0.657);
+}
+
+section#passion {
+  width: 100vw;
+  height: 100vh;
+}
+
+#passion .container {
+  width: 75vw;
+  height: 75vh;
+  /* margin-top: 10vh; */
+}
+
+#passion .divText {
+  width: 29%;
+  height: 20px;
+  text-align: center;
+}
+
+#passion h1 {
+  font-size: 300%;
+}
+
+#passion p {
+  font-size: 117%;
+  color: rgba(87, 75, 75, 0.657);
+}
+
+#passion i {
+  font-size: 700%;
+  margin-bottom: 14%;
+  color: transparent;
+  background-clip: text;
+  background-color: #923cb5;
+  background-image: linear-gradient(147deg, #923cb5 0%, #000000 74%);
+}
+
+#passion .content {
+  margin-top: 10%;
+  height: fit-content;
+}
+
+section#contact {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/abstract-dark-circle.jpg);
+  background-size: 100% 100%;
+}
+#contact .divText {
+  color: white;
+
+  width: 40vw;
+  height: 20vh;
+  margin-right: 1vw;
+
+  left: 10vw;
+  top: 20vh;
+  z-index: 1;
+}
+
+#contact span {
+  margin-top: 10%;
+}
+
+#contact img {
+  width: 54vw;
+  height: 85vh;
   /* filter: blur(10px); */
   margin-right: 9vw;
+}
+#contact a {
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: "Cairo", sans-serif;
+}
+#contact a:hover {
+  color: #66ff66;
+  transform: translateX(2px);
+}
+
+#contact i {
+  font-size: 250%;
+  color: transparent;
+  background: white;
+  background-clip: text;
+}
+
+#contact .title {
+  font-size: 500%;
+}
+#contact .content {
+  margin-top: 30px;
+}
+
+#contact .textRef {
+  font-size: 250%;
 }
